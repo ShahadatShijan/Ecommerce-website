@@ -10,35 +10,34 @@
 </head>
 <body>
     <!-- desktop header section  -->
-    <div class="hidden md:block container py-2">
-        <div class="flex justify-between gap-4 font-roboto">
-            <div>
-                <a href="#" class="text-sm text-black hover:text-primary">Rafcart@Support.Com</a>
+    <section class="shadow-sm">
+        <div class="hidden md:block container py-2">
+            <div class="flex justify-between gap-4 font-roboto">
+                <div>
+                    <a href="#" class="text-sm text-black hover:text-primary">Rafcart@Support.Com</a>
+                </div>
+                <div class="flex space-x-8">
+                    <div>
+                        <a href="#" class="text-sm text-black hover:text-primary capitalize">track my order</a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-sm text-black hover:text-primary capitalize">login</a> <span>/</span>
+                        <a href="#" class="text-sm text-black hover:text-primary capitalize">register</a>
+                    </div>
+                    <div class="">
+                        <a href="#" class="text-sm text-black hover:text-primary capitalize">language</a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-sm text-black hover:text-primary capitalize">currency</a>
+                    </div>
+                </div>
             </div>
-            <div class="flex space-x-8">
-                <div>
-                    <a href="#" class="text-sm text-black hover:text-primary capitalize">track my order</a>
-                </div>
-                <div>
-                    <a href="#" class="text-sm text-black hover:text-primary capitalize">login</a> <span>/</span>
-                    <a href="#" class="text-sm text-black hover:text-primary capitalize">register</a>
-                </div>
-                <div class="">
-                    <a href="#" class="text-sm text-black hover:text-primary capitalize">language</a> 
-                </div>
-                <div>
-                    <a href="#" class="text-sm text-black hover:text-primary capitalize">currency</a>
-                </div>
-                
-            </div>
-
         </div>
-
-
-    </div>
+    </section>
+    
     <!-- desktop header section end -->
 
-    
+
 
 
 
@@ -48,47 +47,128 @@
             <div class="py-2">
                 <a href="index.html"><img src="../images/logo.svg" alt="" class="w-32"></a>
             </div>
-            <div class="flex gap-4">
-                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
-                    <div class="text-2xl">
-                        <i class="far fa-heart"></i>
-                    </div>
-                    <div class="text-xs leading-3"> Wish List </div>
-                    <span
-                        class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">6</span>
-                </a>
-                <div class="relative group">
-                    <a href="#" class="text-center text-gray-700 hover:text-primary transition">
-                        <div class="text-2xl">
-                            <i class="far fa-user"></i>
-                        </div>
-                        <div class="text-xs leading-3"> Account </div>
-                    </a>
-                    <div class="top-full shadow rounded right-0 w-56 p-2 absolute h-100 bg-white  hidden group-hover:block">
-                        
-                        <h3 class="text-sm text-black text-center py-2">Welcome to RAFCART Shop</h3>
-                        <div class="flex justify-center gap-2 py-2">
-                           <button class="text-white text-sm font-medium w-20 py-1 px-5 bg-primary uppercase font-roboto border border-primary hover:bg-white hover:text-primary rounded transition">join</button>
-                            <button class="text-primary text-sm font-medium w-20 py-1 px-2 bg-white uppercase font-roboto border border-primary hover:bg-primary hover:text-white rounded transition">sign in</button>
-                        </div>
-                        <div class="container  space-y-3">
-                            <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-id-card pr-2"></i>my account</a>
-                            <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-gift pr-2"></i>my order</a>
-                            <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-heart pr-2"></i>my wishlist</a>
-                            <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-cart-shopping pr-2"></i>my cart</a>
-                            <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-power-off pr-2"></i>log out</a>
 
-                        </div>
-                      
-                    </div>
+            <div class="hidden lg:block w-2/3">
+                <div class="flex justify-center">
+                    <button class="border border-primary px-8 text-sm font-medium border-r-0 rounded-l-md  text-gray-700">All category</button>
+                    <input type="text" class=" border w-3/5 border-primary border-r-0 pl-4 py-3 pr-3  focus:ring-0 focus:border-primary  " placeholder="search" id="">
+                    <button
+                        class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition">Search</button>
                 </div>
-
-
+            </div>
+            
+            <div class="">
+                <div class="flex gap-4">
+                    <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                        <div class="text-2xl">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div class="text-xs leading-3"> Wish List </div>
+                        <span
+                            class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">6</span>
+                    </a>
+                    <div class="hidden md:block">
+                        <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                            <div class="text-2xl">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="text-xs leading-3"> Cart </div>
+                            <span
+                                class="absolute -right-3 -top-1  w-5 h-5  rounded-full flex items-center justify-center bg-primary text-white text-xs">8</span>
+                        </a>
+                    </div>
+                    
+                    <div class="relative group">
+                        <a href="#" class="text-center text-gray-700 hover:text-primary transition">
+                            <div class="text-2xl">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <div class="text-xs leading-3"> Account </div>
+                        </a>
+                        <div class="top-full shadow rounded right-0 w-56 p-2 absolute h-100 bg-white  hidden group-hover:block">
+                            
+                            <h3 class="text-sm text-black text-center py-2">Welcome to RAFCART Shop</h3>
+                            <div class="flex justify-center gap-2 py-2">
+                               <button class="text-white text-sm font-medium w-20 py-1 px-5 bg-primary uppercase font-roboto border border-primary hover:bg-white hover:text-primary rounded transition">join</button>
+                                <button class="text-primary text-sm font-medium w-20 py-1 px-2 bg-white uppercase font-roboto border border-primary hover:bg-primary hover:text-white rounded transition">sign in</button>
+                            </div>
+                            <div class="container  space-y-3">
+                                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-id-card pr-2"></i>my account</a>
+                                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-gift pr-2"></i>my order</a>
+                                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-heart pr-2"></i>my wishlist</a>
+                                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-cart-shopping pr-2"></i>my cart</a>
+                                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i class="fas fa-power-off pr-2"></i>log out</a>
+    
+                            </div>
+                          
+                        </div>
+                    </div>
+    
+    
+                </div>
             </div>
 
         </div>
     </div>
     <!-- header section end -->
+
+    <!-- navbar start here  -->
+    <nav class="hidden lg:block bg-[#18181B]">
+        <div class="container flex">
+            <!-- all category -->
+            <div class="px-8 py-4 bg-primary text-white flex items-center cursor-pointer relative group" >
+                <span class="text-white">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <span class="capitalize ml-2 ">All categories</span>
+
+
+                <div class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible">
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+                        <i class="fas fa-shoe-prints text-[#f4cad0]"></i>
+                        <span class="ml-6 text-gray-600 text-sm">Shoes</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+                        <i class="fas fa-male text-[#f4cad0]"></i>
+                        <span class="ml-6 text-gray-600 text-sm">Men</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+                        <i class="fas fa-female text-[#f4cad0]"></i>
+                        <span class="ml-6 text-gray-600 text-sm">Women</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+                        <i class="fas fa-plug text-[#f4cad0]"></i>
+                        <span class="ml-6 text-gray-600 text-sm">Electronics</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+                        <i class="fas fa-headphones text-[#f4cad0]"></i>
+                        <span class="ml-6 text-gray-600 text-sm">Headphones</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+                        <i class="fas fa-desktop text-[#f4cad0]"></i>
+                        <span class="ml-6 text-gray-600 text-sm">Computer</span>
+                    </a>
+
+                </div>
+
+            </div>
+        
+            <!-- all category end  -->
+
+            <!-- navbar links  -->
+            <div class="flex items-center justify-between flex-grow pl-12">
+                <div class="flex items-center space-x-6 capitalize">
+                    <a href="#" class="text-gray-200">Home <i class="fas fa-angle-down"></i></a>
+                    <a href="#" class="text-gray-200">Shop <i class="fas fa-angle-down"></i></a>
+                    <a href="#" class="text-gray-200">Pages <i class="fas fa-angle-down"></i></a>
+                    <a href="#" class="text-gray-200">Contact</a>
+                </div>
+                <a href="#" class="text-gray-200 "><i class="fas fa-phone"></i> call: +123 456 7890</a>
+            </div>
+
+        </div>
+    </nav>
+    <!-- navbar end here  -->
 
     <!-- banner section start here  -->
     <div class="bg-cover bg-no-repeat bg-center py-20 md:py-36" style="background-image: url('../images/banner-bg.jpg');">
