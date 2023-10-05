@@ -1,301 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../dist/output.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!-- desktop header section  -->
-    <section class="shadow-sm">
-      <div class="hidden md:block container py-2">
-        <div class="flex justify-between gap-4 font-roboto">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../dist/output.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- desktop header section  -->
+  <section class="shadow-sm">
+    <div class="hidden md:block container py-2">
+      <div class="flex justify-between gap-4 font-roboto">
+        <div>
+          <a href="#" class="text-sm text-black hover:text-primary">Rafcart@Support.Com</a>
+        </div>
+        <div class="flex space-x-8">
           <div>
-            <a href="#" class="text-sm text-black hover:text-primary"
-              >Rafcart@Support.Com</a
-            >
+            <a href="#" class="text-sm text-black hover:text-primary capitalize">track my order</a>
           </div>
-          <div class="flex space-x-8">
-            <div>
-              <a
-                href="#"
-                class="text-sm text-black hover:text-primary capitalize"
-                >track my order</a
-              >
-            </div>
-            <div>
-              <a
-                href="#"
-                class="text-sm text-black hover:text-primary capitalize"
-                >login</a
-              >
-              <span>/</span>
-              <a
-                href="#"
-                class="text-sm text-black hover:text-primary capitalize"
-                >register</a
-              >
-            </div>
-            <div class="">
-              <a
-                href="#"
-                class="text-sm text-black hover:text-primary capitalize"
-                >language</a
-              >
-            </div>
-            <div>
-              <a
-                href="#"
-                class="text-sm text-black hover:text-primary capitalize"
-                >currency</a
-              >
-            </div>
+          <div>
+            <a href="#" class="text-sm text-black hover:text-primary capitalize">login</a>
+            <span>/</span>
+            <a href="#" class="text-sm text-black hover:text-primary capitalize">register</a>
+          </div>
+          <div class="">
+            <a href="#" class="text-sm text-black hover:text-primary capitalize">language</a>
+          </div>
+          <div>
+            <a href="#" class="text-sm text-black hover:text-primary capitalize">currency</a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- desktop header section end -->
+    </div>
+  </section>
+  <!-- desktop header section end -->
 
-    <!-- header section  -->
-    <div class="container p-4">
-      <div class="flex justify-between">
-        <div class="py-2">
-          <a href="index.html"
-            ><img src="../images/logo.svg" alt="" class="w-32"
-          /></a>
+  <!-- header section  -->
+  <div class="container p-4">
+    <div class="flex justify-between">
+      <div class="py-2">
+        <a href="index.html"><img src="../images/logo.svg" alt="" class="w-32" /></a>
+      </div>
+
+      <div class="hidden lg:block w-2/3">
+        <div class="flex justify-center">
+          <button class="border border-primary px-8 text-sm font-medium border-r-0 rounded-l-md text-gray-700">
+            All category
+          </button>
+          <input type="text"
+            class="border w-3/5 border-primary border-r-0 pl-4 py-3 pr-3 focus:ring-0 focus:border-primary"
+            placeholder="search" id="" />
+          <button
+            class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition duration-500">
+            Search
+          </button>
         </div>
+      </div>
 
-        <div class="hidden lg:block w-2/3">
-          <div class="flex justify-center">
-            <button
-              class="border border-primary px-8 text-sm font-medium border-r-0 rounded-l-md text-gray-700"
-            >
-              All category
-            </button>
-            <input
-              type="text"
-              class="border w-3/5 border-primary border-r-0 pl-4 py-3 pr-3 focus:ring-0 focus:border-primary"
-              placeholder="search"
-              id=""
-            />
-            <button
-              class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition duration-500"
-            >
-              Search
-            </button>
-          </div>
-        </div>
-
-        <div class="">
-          <div class="flex gap-4">
-            <a
-              href="#"
-              class="text-center text-gray-700 hover:text-primary transition relative"
-            >
+      <div class="">
+        <div class="flex gap-4">
+          <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+            <div class="text-2xl">
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="text-xs leading-3">Wish List</div>
+            <span
+              class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">6</span>
+          </a>
+          <div class="hidden lg:block">
+            <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
               <div class="text-2xl">
-                <i class="far fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
               </div>
-              <div class="text-xs leading-3">Wish List</div>
+              <div class="text-xs leading-3">Cart</div>
               <span
-                class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs"
-                >6</span
-              >
+                class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">8</span>
             </a>
-            <div class="hidden lg:block">
-              <a
-                href="#"
-                class="text-center text-gray-700 hover:text-primary transition relative"
-              >
-                <div class="text-2xl">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <div class="text-xs leading-3">Cart</div>
-                <span
-                  class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs"
-                  >8</span
-                >
-              </a>
-            </div>
+          </div>
 
-            <div class="relative group">
-              <a
-                href="#"
-                class="text-center text-gray-700 hover:text-primary transition"
-              >
-                <div class="text-2xl">
-                  <i class="far fa-user"></i>
-                </div>
-                <div class="text-xs leading-3">Account</div>
-              </a>
-              <div
-                class="top-full shadow rounded right-0 w-56 p-2 absolute h-100 bg-white hidden group-hover:block"
-              >
-                <h3 class="text-sm text-black text-center py-2">
-                  Welcome to RAFCART Shop
-                </h3>
-                <div class="flex justify-center gap-2 py-2">
-                  <button
-                    class="text-white text-sm font-medium w-20 py-1 px-5 bg-primary uppercase font-roboto border border-primary hover:bg-white hover:text-primary rounded transition"
-                  >
-                    join
-                  </button>
-                  <button
-                    class="text-primary text-sm font-medium w-20 py-1 px-2 bg-white uppercase font-roboto border border-primary hover:bg-primary hover:text-white rounded transition"
-                  >
-                    sign in
-                  </button>
-                </div>
-                <div class="container space-y-3">
-                  <a
-                    href="#"
-                    class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"
-                    ><i class="fas fa-id-card pr-2"></i>my account</a
-                  >
-                  <a
-                    href="#"
-                    class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"
-                    ><i class="fas fa-gift pr-2"></i>my order</a
-                  >
-                  <a
-                    href="#"
-                    class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"
-                    ><i class="fas fa-heart pr-2"></i>my wishlist</a
-                  >
-                  <a
-                    href="#"
-                    class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"
-                    ><i class="fas fa-cart-shopping pr-2"></i>my cart</a
-                  >
-                  <a
-                    href="#"
-                    class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"
-                    ><i class="fas fa-power-off pr-2"></i>log out</a
-                  >
-                </div>
+          <div class="relative group">
+            <a href="#" class="text-center text-gray-700 hover:text-primary transition">
+              <div class="text-2xl">
+                <i class="far fa-user"></i>
+              </div>
+              <div class="text-xs leading-3">Account</div>
+            </a>
+            <div class="top-full shadow rounded right-0 w-56 p-2 absolute h-100 bg-white hidden group-hover:block">
+              <h3 class="text-sm text-black text-center py-2">
+                Welcome to RAFCART Shop
+              </h3>
+              <div class="flex justify-center gap-2 py-2">
+                <button
+                  class="text-white text-sm font-medium w-20 py-1 px-5 bg-primary uppercase font-roboto border border-primary hover:bg-white hover:text-primary rounded transition">
+                  join
+                </button>
+                <button
+                  class="text-primary text-sm font-medium w-20 py-1 px-2 bg-white uppercase font-roboto border border-primary hover:bg-primary hover:text-white rounded transition">
+                  sign in
+                </button>
+              </div>
+              <div class="container space-y-3">
+                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i
+                    class="fas fa-id-card pr-2"></i>my account</a>
+                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i
+                    class="fas fa-gift pr-2"></i>my order</a>
+                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i
+                    class="fas fa-heart pr-2"></i>my wishlist</a>
+                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i
+                    class="fas fa-cart-shopping pr-2"></i>my cart</a>
+                <a href="#" class="capitalize text-gray-800 text-sm hover:text-primary font-roboto block"><i
+                    class="fas fa-power-off pr-2"></i>log out</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- header section end -->
+  </div>
+  <!-- header section end -->
 
-    <!-- navbar start here  -->
-    <nav class="hidden lg:block bg-[#18181B]">
-      <div class="container flex">
-        <!-- all category -->
+  <!-- navbar start here  -->
+  <nav class="hidden lg:block bg-[#18181B]">
+    <div class="container flex">
+      <!-- all category -->
+      <div class="px-8 py-4 bg-primary text-white flex items-center cursor-pointer relative group">
+        <span class="text-white">
+          <i class="fas fa-bars"></i>
+        </span>
+        <span class="capitalize ml-2">All categories</span>
+
         <div
-          class="px-8 py-4 bg-primary text-white flex items-center cursor-pointer relative group"
-        >
-          <span class="text-white">
-            <i class="fas fa-bars"></i>
-          </span>
-          <span class="capitalize ml-2">All categories</span>
-
-          <div
-            class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible"
-          >
-            <a
-              href="#"
-              class="flex items-center px-6 py-3 hover:bg-gray-200 transition"
-            >
-              <i class="fas fa-shoe-prints text-[#f4cad0]"></i>
-              <span class="ml-6 text-gray-600 text-sm">Shoes</span>
-            </a>
-            <a
-              href="#"
-              class="flex items-center px-6 py-3 hover:bg-gray-200 transition"
-            >
-              <i class="fas fa-male text-[#f4cad0]"></i>
-              <span class="ml-6 text-gray-600 text-sm">Men</span>
-            </a>
-            <a
-              href="#"
-              class="flex items-center px-6 py-3 hover:bg-gray-200 transition"
-            >
-              <i class="fas fa-female text-[#f4cad0]"></i>
-              <span class="ml-6 text-gray-600 text-sm">Women</span>
-            </a>
-            <a
-              href="#"
-              class="flex items-center px-6 py-3 hover:bg-gray-200 transition"
-            >
-              <i class="fas fa-plug text-[#f4cad0]"></i>
-              <span class="ml-6 text-gray-600 text-sm">Electronics</span>
-            </a>
-            <a
-              href="#"
-              class="flex items-center px-6 py-3 hover:bg-gray-200 transition"
-            >
-              <i class="fas fa-headphones text-[#f4cad0]"></i>
-              <span class="ml-6 text-gray-600 text-sm">Headphones</span>
-            </a>
-            <a
-              href="#"
-              class="flex items-center px-6 py-3 hover:bg-gray-200 transition"
-            >
-              <i class="fas fa-desktop text-[#f4cad0]"></i>
-              <span class="ml-6 text-gray-600 text-sm">Computer</span>
-            </a>
-          </div>
-        </div>
-
-        <!-- all category end  -->
-
-        <!-- navbar links  -->
-        <div class="flex items-center justify-between flex-grow pl-12">
-          <div class="flex items-center space-x-6 capitalize">
-            <a href="#" class="text-gray-200"
-              >Home <i class="fas fa-angle-down"></i
-            ></a>
-            <a href="#" class="text-gray-200"
-              >Shop <i class="fas fa-angle-down"></i
-            ></a>
-            <a href="#" class="text-gray-200"
-              >Pages <i class="fas fa-angle-down"></i
-            ></a>
-            <a href="#" class="text-gray-200">Contact</a>
-          </div>
-          <a href="#" class="text-gray-200"
-            ><i class="fas fa-phone"></i> call: +123 456 7890</a
-          >
+          class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible">
+          <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+            <i class="fas fa-shoe-prints text-[#f4cad0]"></i>
+            <span class="ml-6 text-gray-600 text-sm">Shoes</span>
+          </a>
+          <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+            <i class="fas fa-male text-[#f4cad0]"></i>
+            <span class="ml-6 text-gray-600 text-sm">Men</span>
+          </a>
+          <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+            <i class="fas fa-female text-[#f4cad0]"></i>
+            <span class="ml-6 text-gray-600 text-sm">Women</span>
+          </a>
+          <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+            <i class="fas fa-plug text-[#f4cad0]"></i>
+            <span class="ml-6 text-gray-600 text-sm">Electronics</span>
+          </a>
+          <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+            <i class="fas fa-headphones text-[#f4cad0]"></i>
+            <span class="ml-6 text-gray-600 text-sm">Headphones</span>
+          </a>
+          <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-200 transition">
+            <i class="fas fa-desktop text-[#f4cad0]"></i>
+            <span class="ml-6 text-gray-600 text-sm">Computer</span>
+          </a>
         </div>
       </div>
-    </nav>
 
-    <!-- navbar end here  -->
+      <!-- all category end  -->
+
+      <!-- navbar links  -->
+      <div class="flex items-center justify-between flex-grow pl-12">
+        <div class="flex items-center space-x-6 capitalize">
+          <a href="index.html" class="text-gray-200">Home <i class="fas fa-angle-down"></i></a>
+          <a href="#" class="text-gray-200">Shop <i class="fas fa-angle-down"></i></a>
+          <a href="#" class="text-gray-200">Pages <i class="fas fa-angle-down"></i></a>
+          <a href="contact.html" class="text-gray-200">Contact</a>
+        </div>
+        <a href="#" class="text-gray-200"><i class="fas fa-phone"></i> call: +123 456 7890</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar end here  -->
 
 
-    <!-- banner section  -->
-    <div class="bg-cover bg-no-repeat bg-center h-[280px] lg:h-[350px]  flex items-center justify-center flex-col" style="background-image: url('../images/contact-banner.jpg');">
-        
-            <h1 class="uppercase mb-1 text-white text-[28px]  font-roboto font-medium ">contact us</h1>
-            <div class=" flex items-center justify-center gap-3">
-                <a href="index.html" class="text-primary text-base">
-                    <i class="fas fa-home "></i>
-                </a>
-                <span class="text-sm text-white">
-                    <i class="fas fa-chevron-right"></i>
-                </span>
-                <p class="text-white font-medium">Contact us</p>
+  <!-- banner section  -->
+  <div class="bg-cover bg-no-repeat bg-center h-[280px] lg:h-[350px]  flex items-center justify-center flex-col"
+    style="background-image: url('../images/contact-banner.jpg');">
+
+    <h1 class="uppercase mb-1 text-white text-[28px]  font-roboto font-medium ">contact us</h1>
+    <div class=" flex items-center justify-center gap-3">
+      <a href="index.html" class="text-primary text-base">
+        <i class="fas fa-home "></i>
+      </a>
+      <span class="text-sm text-white">
+        <i class="fas fa-chevron-right"></i>
+      </span>
+      <p class="text-white font-medium">Contact us</p>
+    </div>
+
+
+
+  </div>
+  <!-- banner section end  -->
+
+
+  <!-- contact section  -->
+  <div class="container py-16">
+    <div class="flex justify-between gap-8 ">
+        <div class="basis-2/3 shadow p-4">
+            <h2 class="uppercase text-black text-3xl font-medium py-2">LEAVE US A MESSAGE</h2>
+            <p class="">Use the form below to get in touch with the sales team</p>
+            <form action="" class="pt-4 ">
+                <div class="space-y-4">
+                    <div class="flex gap-4 justify-between">
+                        <div class="basis-1/2">
+                          <label for="firstName" class="block mb-2 text-gray-800">First Name <span class="text-primary">*</span></label>
+                          <input type="text" class="block w-full px-4 py-3 text-gray-600 text-sm rounded border border-gray-200 focus:ring-0 focus:border-primary" name=""  id="" required>
+                        </div>
+                        <div class="basis-1/2">
+                          <label for="lastName" class="block mb-2 text-gray-800">Last Name <span class="text-primary">*</span></label>
+                          <input type="text" class="block w-full px-4 py-3 text-gray-600 text-sm rounded border border-gray-200 focus:ring-0 focus:border-primary " name=""  id="" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email" class="block mb-2 text-gray-800">Email Address <span class="text-primary">*</span></label>
+                        <input type="email" class="block w-full px-4 py-3 text-gray-600 text-sm rounded border border-gray-200 focus:ring-0 focus:border-primary " name="" id="" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block mb-2 text-gray-800">Subject</label>
+                        <input type="text" class="block w-full px-4 py-3 text-gray-600 text-sm rounded border border-gray-200 focus:ring-0 focus:border-primary " name="" id="">
+                    </div>
+                    <div>
+                        <label for="fullName" class="block mb-2 text-gray-800">Your Message <span class="text-primary">*</span></label>
+                        <textarea name="" id=""  rows="3" style="resize: none;" class="block w-full px-4 py-3 text-gray-600 text-sm rounded border border-gray-200 focus:ring-0 focus:border-primary" required></textarea>
+                    </div>
+                    <div class="">
+                      <button class="uppercase mt-6 font-medium px-4 py-2 rounded bg-primary text-white border border-primary focus:right-0 hover:bg-white hover:text-primary">send message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="basis-1/3 shadow p-4">
+            <div class="space-y-2">
+                <h3 class="uppercase text-black font-medium  text-lg py-2">our store</h3>
+                <p class="text-gray-800 "><i class="fas fa-map-marker-alt text-primary pr-4"></i>7895 Dr New Albuquerue, NM 19800, </p>
+                <p class="text-gray-800 pl-7">nited States Of America</p>
+                <p class="text-gray-800 "><i class="fas fa-phone text-primary pr-4"></i>+566 477 256, +566 254 575</p>
+                <p class="text-gray-800 "><i class="fas fa-envelope text-primary pr-4"></i>info@domain.com</p>
             </div>
-    
-       
+            <h3 class="uppercase text-black font-medium text-xl py-4">HOURS OF OPERATION</h3>
+
+            <div class=" grid grid-cols-2 space-y-1 gap-1">
+                <p>Saturday</p>
+                <p>12:00 PM</p>
+                <p>Sunday</p>
+                <p>12:00 PM</p>
+                <p>Monday</p>
+                <p>12:00 PM</p>
+                <p>Tuesday</p>
+                <p>12:00 PM</p>
+                <p>Wednesday</p>
+                <p>12:00 PM</p>
+                <p>Thursday</p>
+                <p>12:00 PM</p>
+                <p>Friday</p>
+                <p>12:00 PM</p>
+            </div>
+            <h3 class="uppercase text-black font-medium text-xl py-4">CAREERS</h3>
+            <p class="text-base text-gray-800 ">If you are interesting in emplyment opportunities at RAFCARTs. Please email us:</p>
+            <a href="#" class="text-primary">contact@familiar.com</a>
+            
+        </div>
 
     </div>
-    <!-- banner section end  -->
+</div>
+<!-- contact section end  -->
 
 
-    <!-- footer section start here  -->
-    <div class="container">
+  <!-- footer section start here  -->
+  <section class="bg-[#f3f3f3] pt-8">
+    <div class="container ">
       <div class="lg:flex lg:gap-4 lg:justify-between py-4">
         <div class="flex-1 mb-8">
           <img src="../images/logo.svg" alt="" />
@@ -306,16 +288,10 @@
           <div>
             <h3 class="text-base uppercase font-medium py-2">newsletter</h3>
             <div class="flex w-2/3 lg:w-full">
-              <input
-                type="email"
-                class="w-2/3 border border-r-0 rounded-l focus:ring-0 focus:border-primary outline-none"
-                name=""
-                placeholder="Your email address"
-                id=""
-              />
+              <input type="email" class="w-2/3 border border-r-0 rounded-l focus:ring-0 focus:border-primary outline-none"
+                name="" placeholder="Your email address" id="" />
               <button
-                class="border border-primary uppercase px-2 font-roboto text-white bg-primary hover:text-primary hover:bg-white transition duration-500 rounded-r"
-              >
+                class="border border-primary uppercase px-2 font-roboto text-white bg-primary hover:text-primary hover:bg-white transition duration-500 rounded-r">
                 subscribe
               </button>
             </div>
@@ -375,10 +351,8 @@
           <h4 class="uppercase mb-2 text-base font-medium">Contact</h4>
           <div>
             <p class="my-2">
-              <span class="icn"
-                ><i class="fas fa-map-marker-alt pr-2"></i
-              ></span>
-
+              <span class="icn"><i class="fas fa-map-marker-alt pr-2"></i></span>
+  
               7895 Dr New Albuquerue, NM 19800, <br />
               <span class="pl-6"> United States Of America</span>
             </p>
@@ -393,42 +367,34 @@
           </div>
           <div class="flex space-x-6 py-4">
             <div class="">
-              <a href="#" class="text-2xl"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
+              <a href="#" class="text-2xl"><i class="fa-brands fa-facebook"></i></a>
             </div>
             <div>
-              <a href="#" class="text-2xl"
-                ><i class="fa-brands fa-twitter"></i
-              ></a>
+              <a href="#" class="text-2xl"><i class="fa-brands fa-twitter"></i></a>
             </div>
             <div>
-              <a href="#" class="text-2xl"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
+              <a href="#" class="text-2xl"><i class="fa-brands fa-instagram"></i></a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- footer section end  -->
+  </section>
+  <!-- footer section end  -->
 
-    <!-- copyright section  -->
-    <div class="bg-gray-800 py-4">
-      <div class="container">
-        <div class="lg:flex lg:items-center lg:justify-between">
-          <div class="text-center pb-3 lg:pb-0">
-            <p class="text-white">&copy; RAFCART - ALL Rights Reserved</p>
-          </div>
-          <div class="">
-            <img
-              src="../images/methods.png"
-              alt=""
-              class="h-5 lg:h-7 mx-auto"
-            />
-          </div>
+  <!-- copyright section  -->
+  <div class="bg-[#18181b] py-4">
+    <div class="container">
+      <div class="lg:flex lg:items-center lg:justify-between">
+        <div class="text-center pb-3 lg:pb-0">
+          <p class="text-white">&copy; RAFCART - ALL Rights Reserved</p>
+        </div>
+        <div class="">
+          <img src="../images/methods.png" alt="" class="h-5 lg:h-7 mx-auto" />
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
